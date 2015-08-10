@@ -88,6 +88,7 @@ Some of these privacy flaws include:
 * *HTTP Referrer:* When you click a link, your browser sends to the new website the location of the old website. Because sensitive or personally identifying information might be included in the URL of a particular page, the HTTP Referrer should be disabled. You can only do this with an extension.
 * *HTTP User-Agent:* Your web browser sends a special "User-Agent" string to every website that it visits. This string contains a lot of uncommon information that can be used, in combination with other data, to uniquely identify your traffic. There is little point in the User-Agent string these days, and it is better to use a generic value, such as the one used by the Tor Browser.
 * *HTML5 Canvas:* Many websites have started to use the HTML5 Canvas to uniquely fingerprint your browser and track your behavior. There is currently no way to disable this, although some new extensions make a crude attempt.
+* *HTML5 Battery API:* Websites can uniquely fingerprint your browser accessing battery information
 * *JavaScript:* JavaScript is essential for most websites these days, but there are times when you may wish to disable it. When JavaScript is enabled, it is much easier for a website to fingerprint your browser and track your behavior. Also, most browser security vulnerabilities are caused by JavaScript.
 
 For Firefox:
